@@ -1,10 +1,15 @@
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar';
+import './app/styles.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <p>Tienda</p>
-    </div>
+  <div>
+    <header>
+    <NavBar/>
+    <h1>Segunda entrega</h1>
+    </header>
+  </div>
   );
 }
 
