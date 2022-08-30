@@ -6,3 +6,18 @@ h1{
     text-align: center;
     margin: 50px;
 }
+
+.carrito1{
+    display: flex;
+    justify-content: end;
+}
+
+.contador{
+    color: blanchedalmond;
+}
+
+.saludo{
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+}

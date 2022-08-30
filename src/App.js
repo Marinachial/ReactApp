@@ -1,14 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
 import './app/styles.css';
+import ItemListContainer from './components/ItemListContainer';
 
 const App = () => {
   return (
   <div>
     <header>
     <NavBar/>
-    <h1>Segunda entrega</h1>
     </header>
+    <h1>Tercera entrega</h1>
+    <ItemListContainer greeting={'Bienvenido'}/>
   </div>
   );
 }
